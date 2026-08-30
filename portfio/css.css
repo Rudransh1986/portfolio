@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body.edu {
+    background-color: rgba(18, 18, 18, 1);
+    color: antiquewhite;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+.top {
+    font-family: "Courier New", monospace;
+    font-weight: 900;
+    font-size: 2.2em;
+    text-align: center;
+    color: rgba(0, 255, 204, 1);
+    background-color: rgba(30, 30, 30, 1);
+    border: 3px dashed rgba(0, 255, 204, 1);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.sup {
+    font-size: 0.4em;
+    color: rgba(255, 153, 0, 1);
+    margin-top: 5px;
+}
+
+
+.navigation {
+    background-color: rgba(26, 26, 46, 1);
+    border: 2px solid rgba(233, 69, 96, 1);
+    padding: 15px;
+    margin-bottom: 25px;
+    width: 1200px;
+}
+
+.menu-title {
+    color: rgba(233, 69, 96, 1);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+li {
+    padding-top: 8px;
+    color: rgba(255, 255, 0, 1);
+}
+
+a {
+    color: rgba(0, 255, 255, 1);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgba(255, 0, 128, 1);
+    background-color: yellow;
+}
+
+.divider {
+    border: 1px solid rgba(51, 51, 51, 1);
+    margin: 20px 0;
+}
+
+
+.section {
+    background-color: rgba(30, 30, 30, 1);
+    border: 1px solid rgba(51, 51, 51, 1);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.top_edu {
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgba(255, 0, 127, 1);
+    margin-bottom: 15px;
+    display: block;
+}
+
+.primary_edu {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgba(255, 153, 0, 1);
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+.des {
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: rgba(224, 224, 224, 1);
+}
+
+#bold {
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(51, 51, 51, 1);
+    padding: 2px 5px;
+}
+
+
+.layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.img {
+    border: 3px solid rgba(0, 255, 204, 1);
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+img {
+    max-width: 250px;
+    height: auto;
+    display: block;
+}
+
+
