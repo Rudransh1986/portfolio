@@ -1,133 +1,138 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box; 
 }
 
 body.edu {
-    background-color: rgba(18, 18, 18, 1);
-    color: antiquewhite;
+    background-color: rgba(244, 246, 249, 1); 
+    color: rgba(51, 51, 51, 1); 
     font-family: Arial, sans-serif;
-    padding: 20px;
+    padding: 30px;
 }
-
 
 .top {
-    font-family: "Courier New", monospace;
-    font-weight: 900;
-    font-size: 2.2em;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
     text-align: center;
-    color: rgba(0, 255, 204, 1);
-    background-color: rgba(30, 30, 30, 1);
-    border: 3px dashed rgba(0, 255, 204, 1);
-    padding: 15px;
-    margin-bottom: 20px;
-}
-
-.sup {
-    font-size: 0.4em;
-    color: rgba(255, 153, 0, 1);
-    margin-top: 5px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 86, 179, 1); 
+    border: 2px solid rgba(0, 64, 133, 1);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); 
 }
 
 
 .navigation {
-    background-color: rgba(26, 26, 46, 1);
-    border: 2px solid rgba(233, 69, 96, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(204, 204, 204, 1);
     padding: 15px;
     margin-bottom: 25px;
-    width: 1200px;
+    max-width: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
 }
 
 .menu-title {
-    color: rgba(233, 69, 96, 1);
+    color: rgba(0, 86, 179, 1);
     font-weight: bold;
-    text-align: center;
+    font-size: 1.2em;
     margin-bottom: 10px;
 }
 
 ul {
-    font-weight: bold;
-    padding-left: 20px;
+    font-weight: 500;
+    padding-left: 30px;
 }
 
 li {
-    padding-top: 8px;
-    color: rgba(255, 255, 0, 1);
+    padding-top: 6px;
+    color: rgba(51, 51, 51, 1);
 }
 
 a {
-    color: rgba(0, 255, 255, 1);
-    text-decoration: underline;
+    color: rgba(0, 123, 255, 1);
+   
 }
 
 a:hover {
-    color: rgba(255, 0, 128, 1);
-    background-color: yellow;
+    color: rgba(0, 64, 133, 1);
+    text-decoration: underline; 
 }
 
 .divider {
-    border: 1px solid rgba(51, 51, 51, 1);
-    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid rgba(221, 221, 221, 1);
+    margin: 25px 0;
 }
 
 
 .section {
-    background-color: rgba(30, 30, 30, 1);
-    border: 1px solid rgba(51, 51, 51, 1);
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(224, 224, 224, 1);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .top_edu {
-    font-size: 2em;
-    font-weight: bolder;
-    color: rgba(255, 0, 127, 1);
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
     margin-bottom: 15px;
-    display: block;
+    border-bottom: 2px solid rgba(0, 123, 255, 1); 
+    padding-bottom: 5px;
 }
 
 .primary_edu {
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bold;
-    color: rgba(255, 153, 0, 1);
+    color: rgba(0, 86, 179, 1);
     margin-bottom: 8px;
-    text-decoration: underline;
 }
 
 .des {
     font-weight: normal;
-    font-size: 1.1em;
-    line-height: 1.5;
-    color: rgba(224, 224, 224, 1);
+    font-size: 1.05em;
+    line-height: 1.6;
+    color: rgba(68, 68, 68, 1);
 }
 
 #bold {
-    font-weight: 900;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(51, 51, 51, 1);
-    padding: 2px 5px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(233, 233, 239, 1); 
+    padding: 2px 6px;
+    border-radius: 4px;
 }
 
 
 .layout {
     display: flex;
-    align-items: flex-start;
+    align-items: center; 
     justify-content: space-between;
-    gap: 20px;
-    margin-top: 10px;
+    gap: 25px;
+    margin-top: 15px;
 }
 
 .img {
-    border: 3px solid rgba(0, 255, 204, 1);
-    padding: 4px;
-    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(204, 204, 204, 1);
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 img {
-    max-width: 250px;
+    max-width: 280px;
     height: auto;
     display: block;
 }
-
-
