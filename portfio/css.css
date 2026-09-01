@@ -2,137 +2,163 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
+    transition: all 0.3s ease; /* Smooth global micro-interactions */
 }
 
 body.edu {
-    background-color: rgba(244, 246, 249, 1); 
-    color: rgba(51, 51, 51, 1); 
-    font-family: Arial, sans-serif;
-    padding: 30px;
+    background-color: rgba(248, 250, 252, 1); 
+    color: rgba(30, 41, 59, 1); 
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    padding: 40px 20px;
 }
 
 .top {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 2em;
+    font-weight: 700;
+    font-size: 2.2em;
     text-align: center;
     color: rgba(255, 255, 255, 1);
-    background-color: rgba(0, 86, 179, 1); 
-    border: 2px solid rgba(0, 64, 133, 1);
-    padding: 20px;
-    margin-bottom: 25px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); 
+    background: linear-gradient(135deg, rgba(32, 62, 145, 1), rgba(37, 99, 235, 1));
+    border: none;
+    padding: 40px 20px;
+    margin-bottom: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03); 
 }
-
 
 .navigation {
     background-color: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(204, 204, 204, 1);
-    padding: 15px;
-    margin-bottom: 25px;
+    border: 1px solid rgba(226, 232, 240, 1);
+    padding: 16px 24px;
+    margin-bottom: 35px;
     max-width: 1000px; 
     margin-left: auto;
     margin-right: auto;
-    border-radius: 6px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.02);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .menu-title {
-    color: rgba(0, 86, 179, 1);
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-bottom: 10px;
+    color: rgba(37, 99, 235, 1);
+    font-weight: 700;
+    font-size: 1.1em;
 }
 
 ul {
-    font-weight: 500;
-    padding-left: 30px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-left: 0;
 }
 
 li {
-    padding-top: 6px;
-    color: rgba(51, 51, 51, 1);
+    padding-top: 0;
 }
 
 a {
-    color: rgba(0, 123, 255, 1);
-   
+    color: rgba(100, 116, 139, 1);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
 }
 
 a:hover {
-    color: rgba(0, 64, 133, 1);
-    text-decoration: underline; 
+    color: rgba(37, 99, 235, 1);
 }
 
 .divider {
     border: 0;
-    border-top: 1px solid rgba(221, 221, 221, 1);
-    margin: 25px 0;
+    border-top: 1px solid rgba(226, 232, 240, 1);
+    margin: 40px 0;
 }
-
-
+  
 .section {
     background-color: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(224, 224, 224, 1);
-    padding: 20px;
-    margin-bottom: 25px;
-    border-radius: 8px;
+    border: 1px solid rgba(226, 232, 240, 1);
+    padding: 32px;
+    margin-bottom: 30px;
+    border-radius: 12px;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+
+.section:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
 }
 
 .top_edu {
-    font-size: 1.8em;
-    font-weight: bold;
-    color: rgba(51, 51, 51, 1);
-    margin-bottom: 15px;
-    border-bottom: 2px solid rgba(0, 123, 255, 1); 
-    padding-bottom: 5px;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: rgba(30, 41, 59, 1);
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(226, 232, 240, 1); 
+    padding-bottom: 8px;
+    position: relative;
 }
 
 .primary_edu {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: rgba(0, 86, 179, 1);
-    margin-bottom: 8px;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: rgba(37, 99, 235, 1);
+    margin-bottom: 10px;
 }
 
 .des {
-    font-weight: normal;
-    font-size: 1.05em;
-    line-height: 1.6;
-    color: rgba(68, 68, 68, 1);
+    font-size: 1rem;
+    color: rgba(100, 116, 139, 1);
 }
 
 #bold {
-    font-weight: bold;
-    color: rgba(0, 0, 0, 1);
-    background-color: rgba(233, 233, 239, 1); 
-    padding: 2px 6px;
-    border-radius: 4px;
+    font-weight: 600;
+    color: rgba(37, 99, 235, 1);
+    background-color: rgba(239, 246, 255, 1); 
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 0.95em;
 }
-
 
 .layout {
     display: flex;
-    align-items: center; 
+    flex-direction: row;
+    align-items: flex-start; 
     justify-content: space-between;
-    gap: 25px;
-    margin-top: 15px;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* phone aur tabs ke liye h ye */
+@media (max-width: 768px) {
+    .navigation, .layout {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
 }
 
 .img {
-    border: 1px solid rgba(204, 204, 204, 1);
-    padding: 6px;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 4px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0); 
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    flex-shrink: 0;
 }
 
 img {
-    max-width: 280px;
-    height: auto;
+    width: 100%;
+    max-width: 320px;
+    height: 200px;
+    object-fit: cover; 
     display: block;
 }
