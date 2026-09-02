@@ -3,91 +3,203 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Rudransh Krishna Pathak | Portfolio</title>
     <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="edu">
 
-   
-    <div class="top">
-        *** Welcome to My Portfolio Web! ***
-    </div>
-
-   
-    <div class="navigation">
-        <div class="menu-title">-- NAVIGATION --</div>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">My Skills</a></li>
-            <li><a href="#projects">My Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="mailto:rudranshpat.off@gmail.com">Contact Me</a></li>
-        </ul>
-    </div>
-
-    <hr class="divider">
-
-
-    <div id="about" class="section">
-        <h2 class="primary_edu">About Me</h2>
-        <div class="des">
-            Hi! I am <b>Rudransh Krishna Pathak</b>. I am an aspiring software developer I am very much fascinated about learning new things and acquiring knowledge about tech and business. I am currently pursuing my B.Tech from <b>AJAY KUMAR GARG ENGINEERING COLLEGE, GZB</b>.
-        </div>
-    </div>
-
-
-    <div id="projects" class="section">
-        <h2 class="primary_edu">My Projects</h2>
-        <div class="des">
-            As for projects, currently I am working on a <b>terminal-based plagiarism detector</b> which works by using N-GRAMS technique to find similarities!
-        </div>
-    </div>
-
  
-    <div id="skills" class="section">
-        <h2 class="primary_edu">My Skills</h2>
-        <div class="des">
-            My current skillset includes:
-            <ul>
-                <li>C</li>
-                <li>C++</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-        </div>
-    </div>
+    <!-- Navigation Bar -->
+    <nav class="navigation">
+        <div class="menu-title">Rudransh.dev</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-   
-    <div id="education" class="section">
-        <h2 class="top_edu"># Education Details</h2>
-        
-        <div class="primary_edu">Primary Education</div>
-        <div class="layout">
-            <div class="des">
-                I have completed my primary education from <span id="bold">Little Flower's School</span>! Here I've accomplished many academic feats like winning science fair 4 times in a row and winning chess tournament.
+    <!-- Hero Section -->
+    <header id="home" class="hero-container">
+        <div class="hero-content">
+            <p class="hero-subtitle">Hello, I am</p>
+            <h1 class="hero-title">Rudransh Krishna Pathak</h1>
+            <p class="hero-tagline">B.Tech AI & ML Student | Aspiring Software Developer</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
             </div>
-            <div class="img">
-            <a href="https://www.lfsbasti.in/" target="_blank">
-                <img src="25b6105f24b8d0853d13accb5a404b48.jpg" alt="Little Flowers School">
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <p class="section-meta">Get To Know Me</p>
+            <h2 class="top_edu">About Me</h2>
+            <p class="des">
+                Hi! I am <span class="bold">Rudransh Krishna Pathak</span>. I am an aspiring software developer. 
+                I am very much fascinated about learning new things and acquiring knowledge about tech and business. 
+                I am currently pursuing my B.Tech from <span class="bold">Ajay Kumar Garg Engineering College, GZB</span>.
+            </p>
+            
+            <!-- Quick Info Grid -->
+            <div class="quick-info-grid">
+                <div class="info-card">
+                    <h4>Education</h4>
+                    <p>B.Tech AI & ML</p>
+                </div>
+                <div class="info-card">
+                    <h4>Year</h4>
+                    <p>2nd Year</p>
+                </div>
+                <div class="info-card">
+                    <h4>College</h4>
+                    <p>AKGEC</p>
+                </div>
+            </div>
+
+            <!-- Stats Metric Extension Grid -->
+            <div class="metrics-grid">
+                <div class="metric-item">
+                    <span class="metric-number">4+</span>
+                    <span class="metric-label">Core Languages</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-number">2nd</span>
+                    <span class="metric-label">Year Undergraduate</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-number">4x</span>
+                    <span class="metric-label">Science Fair Winner</span>
+                </div>
+            </div>
+        </section>
+
+               <!-- Skills Section -->
+        <section id="skills" class="section">
+            <p class="section-meta">What I Know & Am Exploring</p>
+            <h2 class="top_edu">My Technical Arsenal</h2>
+            
+            <div class="skills-wrapper">
+                <!-- Portion 1: Skills Already Learned -->
+                <div class="skills-category">
+                    <h3 class="category-title">Skills Acquired</h3>
+                    <p class="category-des">Technologies and core tools I have spent time mastering and implementing into my local builds:</p>
+                    <div class="skills-container">
+                        <span class="bold skill-badge acquired">C</span>
+                        <span class="bold skill-badge acquired">C++</span>
+                        <span class="bold skill-badge acquired">HTML</span>
+                        <span class="bold skill-badge acquired">CSS</span>
+                    </div>
+                </div>
+                
+                <!-- Portion 2: Skills Currently Learning -->
+                <div class="skills-category">
+                    <h3 class="category-title">Currently Learning</h3>
+                    <p class="category-des">Active topics, framework patterns, and toolkits I am currently discovering day-to-day:</p>
+                    <div class="skills-container">
+                        <span class="bold skill-badge learning">JavaScript</span>
+                        <span class="bold skill-badge learning">Git & GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <p class="section-meta">What I Have Built</p>
+            <h2 class="top_edu">My Projects Showcase</h2>
+            
+            <div class="project-list-container">
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-number">01</div>
+                        <h3 class="primary_edu">Terminal-Based Plagiarism Detector</h3>
+                    </div>
+                    <div class="project-details">
+                        <p class="des">
+                            Currently I am working on a terminal-based plagiarism detector which works by using the 
+                            <span class="bold">N-GRAMS</span> technique to find text similarities efficiently!
+                        </p>
+                        <p class="des additional-detail">
+                            Designed to scan multiple string input pools, tokenize characters into contiguous subsequences, and calculate statistical intersections natively without external libraries.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">N-Grams Tool</span>
+                            <span class="tag">Strings Processing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <p class="section-meta">My Academic Journey</p>
+            <h2 class="top_edu">Education Details</h2>
+            
+            <div class="timeline">
+                <!-- Higher Education -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="layout">
+                        <div class="details">
+                            <h3 class="primary_edu">Higher Education</h3>
+                            <p class="des">
+                                I am currently pursuing <span class="bold">B.TECH</span> in <span class="bold">Ajay Kumar Garg Engineering College (GZB)</span> 
+                                in the AI & ML branch! I am currently in the second year of my college journey.
+                            </p>
+                        </div>
+                        <div class="img">
+                            <a href="https://akgec.ac.in" target="_blank" rel="noopener noreferrer" class="img-link" title="Visit AKGEC Website">
+                                <img src="download.jpeg" alt="AKGEC College Building">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Primary Education -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Completed</div>
+                    <div class="layout">
+                        <div class="details">
+                            <h3 class="primary_edu">Primary Education</h3>
+                            <p class="des">
+                                I have completed my primary education from <span class="bold">Little Flower's School</span>! 
+                                Here I've accomplished many academic feats like winning the science fair 4 times in a row and winning the chess tournament.
+                            </p>
+                        </div>
+                        <div class="img">
+                            <a href="https://lfis.in" target="_blank" rel="noopener noreferrer" class="img-link" title="Visit Little Flower's School Website">
+                                <img src="25b6105f24b8d0853d13accb5a404b48.jpg" alt="Little Flowers School Building">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <p class="section-meta">Let's Connect</p>
+            <h2 class="top_edu">Contact & Networks</h2>
+            <p class="des">Feel free to connect with me through email or social platforms.</p>
+            
+            <div class="contact-grid">
+                <a href="mailto:your-email@example.com" class="contact-card">
+                    <h4>Email</h4>
+                    <p>Mail Me!</p>
                 </a>
             </div>
-        </div>
-        <br><br>
-        <div class="primary_edu">Higher Education</div>
-        <div class="layout">
-            <div class="des">
-                I am currently pursuing B.TECH in <span id="bold">AJAY KUMAR GARG ENGINEERING COLLEGE (gzb)</span> in <span id="bold">AI & ML</span> branch! I am currently in second year of my college.
-            </div>
-            <div class="img">
-            <a href="https://www.akgec.ac.in/" target="_blank">
-                    <img src="download.jpeg" alt="AKGEC College">
-             </a>
-            </div>
-        </div>
-    </div>
-
-    
-   
-
+        </section>
+    </main>
 </body>
 </html>
